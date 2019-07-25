@@ -1,0 +1,10 @@
+1,sneha,m.tech,40000,cs
+2,bunny,b.tech,56789,is
+3,asha,phd,35567,ec
+4,ravi,phd,23500,is
+5,ramesh,m.tech,50000,cs
+6,suresh,phd,90000,ec
+7,pallavi,b.tech,38790,cs
+8,anu,phd,30000,ec
+9,sunny,b.tech,4000,cs
+10,manu,m.tech,98000,is

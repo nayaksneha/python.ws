@@ -1,3 +1,5 @@
+
+
 name = input("enter name")
 lst = ['a','i','o','u','e']
 c = 0
