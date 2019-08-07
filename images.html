@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <h1>How are you feeling??</h1>
+    <div>
+        <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1480481056" alt="Happy" onclick="showmassage('happy')">
+            <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Sleeping_Emoji_large.png?v=1480481055" alt="sleepy" onclick="showmassage('sleepy')">
+             <img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Very_Angry_Emoji_7f7bb8df-d9dc-4cda-b79f-5453e764d4ea_large.png?v=1480481058" alt="angry" onclick="showmassage('angry')">
+            </div>
+    <div id="res"></div>
+</body>
+<script>
+    function showmassage(f){
+        if(f === 'happy')
+            res = "<c><h2>Be happy enjoy your day!</h2></c>"
+        else if(f === 'sleepy')
+            res = "<c><h2>Go to bed !!</h2></c>" 
+        else if(f === 'angry')
+            res = "<c><h2>Go punch the sand bag</h2></c>"
+        document.getElementById("res").innerHTML = res
+    }
+</script>
+</html>
